@@ -1,11 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONE PIECE</title>
+    <title>One Piece Fanpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo-onepice.png" alt="Logo" width="78" height="38" class="me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html/personajes.html">Personajes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html/teorias.html">Teorías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/gear.html">Evolución de Luffy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/relleno.html">Relleno</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-white text-center py-7"
+        style="background: url('img/heropanel2.jpg') center/cover no-repeat; height: 400px; display: flex; flex-direction: column; justify-content: center;">
+        <h1 class="bg-dark bg-opacity-50 py-3">¡Bienvenido a la Fanpage de One Piece!</h1>
+        <p class="bg-dark bg-opacity-50 py-2">Descubre todo sobre Luffy y su tripulación</p>
+    </header>
+
+    <!-- Historia de One Piece -->
+    <section class="container my-5" id="historia">
+        <h2 class="text-center mb-4">Historia de One Piece</h2>
+        <p class="text-center">Embárcate en el viaje de tu vida con One Piece. La épica serie de anime creada por el
+            renombrado mangaka Eiichiro Oda es un fenómeno global que ha cautivado los corazones de varias generaciones
+            de fanáticos a lo largo de 25 años. Esta emocionante aventura en alta mar está llena de amistad
+            inquebrantable, batallas épicas por la libertad y la búsqueda incesante de sueños. Acompaña a Monkey D.
+            Luffy y su adorable tripulación pirata mientras descubren el verdadero significado del poder y la justicia.
+            <br>
+
+            <br> Monkey D. Luffy se niega a permitir que nada ni nadie se interponga en su camino para convertirse en el
+            Rey de los Piratas. Con sus poderes otorgados por la sobrenatural Fruta del Diablo, el joven y enérgico
+            pirata busca el tesoro legendario conocido como One Piece. Él trazará un rumbo hacia las traicioneras aguas
+            de Grand Line y reclutará un grupo variopinto para conformar sus Piratas de Sombrero de Paja. ¡Este es un
+            capitán que nunca echará anclas hasta que él y sus amigos alcancen sus sueños! <br>
+
+            <br> One Piece cuenta con más de 1100 episodios. Actualmente en el arco de Egghead, los Sombrero de Paja por
+            fin conocen al tan esperado Dr. Vegapunk en la Isla Egghead. En Crunchyroll se pueden ver todos los
+            episodios subtitulados y también todos los doblados al inglés, y ya van más de 1000. Además, One Piece
+            cuenta con 13 especiales de televisión y 15 películas, siendo la última, One Piece Film Red, la más
+            taquillera de la franquicia. One Piece está producida por Toei Animation.
+        </p>
+    </section>
+
+ <!-- Carrusel de los Mugiwara -->
+<!-- Carrusel de los Mugiwara -->
+<section class="container" id="Carrusel">
+    <h2 class="text-center mb-4">Tripulación de los Mugiwara</h2>
+    <div id="mugiwaraCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/luffy.jpg" class="carousel-img" alt="Luffy">
+            </div>
+            <div class="carousel-item">
+                <img src="img/zoro.jpg" class="carousel-img" alt="Zoro">
+            </div>
+            <div class="carousel-item">
+                <img src="img/nami.jpg" class="carousel-img" alt="Nami">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ussop.jpg" class="carousel-img" alt="Usopp">
+            </div>
+            <div class="carousel-item">
+                <img src="img/sanji.jpg" class="carousel-img" alt="Sanji">
+            </div>
+            <div class="carousel-item">
+                <img src="img/chopper.jpg" class="carousel-img" alt="Chopper">
+            </div>
+            <div class="carousel-item">
+                <img src="img/robin.jpg" class="carousel-img" alt="Robin">
+            </div>
+            <div class="carousel-item">
+                <img src="img/franky.jpg" class="carousel-img" alt="Franky">
+            </div>
+            <div class="carousel-item">
+                <img src="img/brook.jpg" class="carousel-img" alt="Brook">
+            </div>
+            <div class="carousel-item">
+                <img src="img/jimbe.jpg" class="carousel-img" alt="Jinbe">
+            </div>
+        </div>
+        <!-- Botones de control -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#mugiwaraCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mugiwaraCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</section>
+
+    <!-- Dónde ver One Piece -->
+    <section class="container my-5 text-center">
+        <h2 class="mb-4">¿Dónde ver One Piece?</h2>
+        <div class="d-flex justify-content-center gap-4">
+            <a href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece?srsltid=AfmBOopjVFfM2k6ilpXYKKKRJkrGUby-KAi0Zd_qO9MLVYXfzwB_06KR"
+                target="_blank">
+                <img src="img/crunchyroll.png" alt="Crunchyroll" width="80">
+            </a>
+            <a href="https://www.netflix.com" target="_blank">
+                <img src="img/netflix.png" alt="Netflix" width="80">
+            </a>
+            <a href="https://www.hulu.com" target="_blank">
+                <img src="img/hulu.png" alt="Hulu" width="80">
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección de Detalles -->
+
+    <section class="container my-5" id="detalles">
+        <h2 class="mb-4 text-center">Detalles</h2>
     
+        <div class="row">
+            <!-- Columna Izquierda -->
+            <div class="col-md-6">
+                <div class="d-flex gap-4">
+                    <h3>Género:</h3>
+                    <p>Acción, Aventura, Fantasía, Shounen</p>
+                </div>
+                <div class="d-flex gap-4">
+                    <h3>Aviso sobre el contenido:</h3>
+                    <p><span>+14</span> Consumo de drogas/alcohol, Lenguaje ofensivo, Tabaquismo, Violencia</p>
+                </div>
+            </div>
+    
+            <!-- Columna Derecha -->
+            <div class="col-md-6">
+                <div class="d-flex gap-4">
+                    <h3>Audio:</h3>
+                    <p>Japanese, Español (América Latina), Português (Brasil)</p>
+                </div>
+                <div class="d-flex gap-4">
+                    <h3>Subtítulos:</h3>
+                    <p>Español (América Latina), English, Español (España), Português (Brasil)</p>
+                </div>
+                <div class="d-flex gap-4">
+                    <h3>Premios:</h3>
+                    <p>Nominado en los Anime Awards 2024, Nominado en los Anime Awards 2023, Ganador en los Anime Awards 2023, 
+                       Ganador en los Anime Awards 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-3">
+        <p>&copy; 2025 One Piece Fanpage | Creado por un fan para los fans | <span>Vanessa Valladares</span></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

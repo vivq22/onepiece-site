@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bs-primary: #ddd; 
+    --bs-dark: #1e4064; 
+    --bs-light: #FFCC00; 
+}
+
+*{
+    font-family: "Atma", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: var(--bs-dark) !important;
+}
+
+.navbar-nav .nav-link {
+    color: var(--bs-light) !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+footer {
+    background-color: var(--bs-dark) !important;
+    color: var(--bs-light);
+}
+
+
+
+
